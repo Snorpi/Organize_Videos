@@ -42,9 +42,9 @@ def write_to_csv(video_info_list, output_csv):
 
 if __name__ == "__main__":
     # Change the directory path to follow the one to your video folder.
-    directory_path = r"C:\Users\Mortgage Educators\Desktop\Test"
+    directory_path = r"C:\\Path\\To\\Video\\Folder"
     # Change the output directory. it's easiest just to use your desktop.
-    output_directory = r"C:\Users\Mortgage Educators\Desktop"
+    output_directory = r"C:\\Path\\To\\Output"
     # you can change the name of the output CSV if you want.
     output_csv = os.path.join(output_directory, "video_info12.csv")
 
